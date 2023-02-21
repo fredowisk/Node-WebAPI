@@ -1,0 +1,9 @@
+{
+  "reporter": ["text", "text-summary", "html"],
+  "report-dir": "./coverage",
+  "include": ["src/**"],
+  "exclude": ["tests/**"],
+  "all": true,
+  "check-coverage": true,
+  "lines": 100
+}

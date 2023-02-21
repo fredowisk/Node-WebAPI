@@ -1,0 +1,21 @@
+{
+  "name": "node-rest-api",
+  "version": "1.0.0",
+  "description": "Welcome, this repo is part of my challenges about Creating and testing a complete Node.js Rest API (With no frameworks).",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "node --test ./tests",
+    "test-cov": "c8 npm run test"
+  },
+  "keywords": [],
+  "authors": [
+    "fredowisk",
+    "erickwendel"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^7.13.0"
+  }
+}
